@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: loki-web-engine
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
